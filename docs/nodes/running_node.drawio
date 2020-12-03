@@ -1,0 +1,115 @@
+<mxfile host="65bd71144e" modified="2020-12-03T18:03:52.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="ezIdroj3Ip0wk-oNguyK" version="13.10.0" type="embed">
+    <diagram id="sr2oOmOHSusQxEWiD4HJ" name="Page-1">
+        <mxGraphModel dx="974" dy="208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="140" width="360" height="820" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="140" width="370" height="820" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IA48kLCIFxauTM0s3FFJ-2" target="IA48kLCIFxauTM0s3FFJ-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-2" value="GPSから位置情報取得" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IA48kLCIFxauTM0s3FFJ-6" target="IA48kLCIFxauTM0s3FFJ-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="360" y="680"/>
+                            <mxPoint x="360" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IA48kLCIFxauTM0s3FFJ-6" target="Ahf6_kmorWU-oSDMMBan-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-6" value="ゴール付近到着" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="640" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-9" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="620" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-10" value="GoalSearchNode" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1000" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-13" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="740" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="IA48kLCIFxauTM0s3FFJ-14" value="ParaseparateNode" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="20" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="k-FXqWe0uaD6-FHE_Dc7-2" value="Main スレッド" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="160" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ahf6_kmorWU-oSDMMBan-1" target="Ahf6_kmorWU-oSDMMBan-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-1" value="走行サイクル実行" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ahf6_kmorWU-oSDMMBan-3" target="IA48kLCIFxauTM0s3FFJ-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ahf6_kmorWU-oSDMMBan-3" target="Ahf6_kmorWU-oSDMMBan-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-3" value="コントロールスレッド起動" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-8" value="Controll スレッド" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="160" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ahf6_kmorWU-oSDMMBan-9" target="Ahf6_kmorWU-oSDMMBan-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-9" value="スレッド終了の通知を受け取る" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ahf6_kmorWU-oSDMMBan-11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ahf6_kmorWU-oSDMMBan-11" target="Ahf6_kmorWU-oSDMMBan-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-11" value="コントロールスレッドに終了を通知" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ahf6_kmorWU-oSDMMBan-15" value="コントロールスレッド終了" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="PsqmtAOI7vzpVR8Dd90p-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IA48kLCIFxauTM0s3FFJ-14" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="240" as="sourcePoint"/>
+                        <mxPoint x="260" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="位置・進行方向&lt;br&gt;の情報を取得" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4" target="Ahf6_kmorWU-oSDMMBan-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ゴール方向へ旋回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="IA48kLCIFxauTM0s3FFJ-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="コントロールスレッドの終了を確認" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
